@@ -1,0 +1,14 @@
+{
+  "name": "vanilla-ts",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript example starter project",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "start": "yarn workspace app start",
+    "build": "yarn workspace app build"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["typescript", "javascript"]
+}
